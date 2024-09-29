@@ -113,10 +113,35 @@ def buat_pola_prima(n):
 buat_pola_prima(5)
 ```
 #### Output:
-![image](https://github.com/user-attachments/assets/fc05c081-b447-4e91-a2fc-24f481d8a593)
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/Screenshot%202024-09-29%20235305.png)
 
+### 2. Soal 2: Membuat Fungsi dengan Syarat Spesifik
+**Soal**: Buatlah sebuah fungsi yang menerima dua input berupa list angka. Fungsi ini harus mengembalikan sebuah list baru yang berisi elemen dari dua list input yang memiliki indeks ganjil. List baru tersebut juga harus diurutkan secara menurun berdasarkan nilai elemen
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function print untuk mengeksekusi nya.
+```python
+def gabung_urut_indeks_ganjil(list1, list2):
+    # Ambil elemen dari indeks ganjil di kedua list
+    elemen_ganjil_list1 = [list1[i] for i in range(1, len(list1), 2)]
+    elemen_ganjil_list2 = [list2[i] for i in range(1, len(list2), 2)]
+
+    # Gabungkan kedua list
+    gabungan = elemen_ganjil_list1 + elemen_ganjil_list2
+
+    # Urutkan list secara menurun
+    gabungan.sort(reverse=True)
+
+    return gabungan
+
+# Contoh penggunaan:
+list1 = [10, 21, 34, 45, 56, 67]
+list2 = [9, 18, 27, 36, 45, 54]
+
+hasil = gabung_urut_indeks_ganjil(list1, list2)
+print(hasil)
+```
+
+#### Output :
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/Screenshot%202024-09-29%20235305.png)
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
