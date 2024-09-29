@@ -426,7 +426,7 @@ else:
     print(f"Nilai {target} ditemukan di indeks {result}.")
 ```
 #### Output:
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20004516.png)
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
