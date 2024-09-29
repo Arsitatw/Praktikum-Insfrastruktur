@@ -337,7 +337,7 @@ reversed_words = [word[::-1] for word in input_string.split()]
 print(reversed_words)
 ```
 #### Output:
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20004248.png)
 ### 9. Konsep Class dan Object-Oriented Programming
 **Soal**: Buat class bernama `Buku` yang memiliki atribut `judul`, `penulis`, dan `tahun_terbit`. Buat method dalam class untuk menampilkan informasi buku, serta method untuk menghitung usia buku berdasarkan tahun saat ini. Buatlah 3 objek dari class `Buku` dan tampilkan informasi serta usia masing-masing buku.
 
