@@ -3,8 +3,8 @@
 
 ## Dasar Teori
 
-Python adalah bahasa pemrograman yang berdaya dan mudah dipelajari. Python memiliki struktur data tingkat tinggi yang efisien dan pendekatan yang sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis Python yang elegan dan tipe dinamis, bersama dengan sifatnya yang diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan pengembangan aplikasi yang cepat di banyak area di sebagian besar platform.
-Python telah menjadi salah satu bahasa pemrograman yang paling populer di berbagai bidang karena sintaksisnya yang sederhana dan fleksibel
+Python merupakan sebuah bahasa pemrograman tingkat tinggi yang dibuat oleh Guido Van Rossum dan dirilis pada tahun 1991 Python juga merupakan bahasa yanng sangat populer
+belakangan ini. Selain itu python juga merupakan bahasa pemrograman yang multi fungsi salah satunya pada bidang Machine Learning dan Deep Learning. Python adalah bahasa pemrograman yang berdaya dan mudah dipelajari[1]. Python memiliki struktur data tingkat tinggi yang efisien dan pendekatan yang sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis Python yang elegan dan tipe dinamis, bersama dengan sifatnya yang diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan pengembangan aplikasi yang cepat di banyak area di sebagian besar platform. Python telah menjadi salah satu bahasa pemrograman yang paling populer di berbagai bidang karena sintaksisnya yang sederhana dan fleksibel
 
 ## Guided 
 
@@ -430,7 +430,8 @@ else:
 ![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20004516.png)
 
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Praktikum bahasa pemrograman Python pada materi dasar-dasar telah memberikan pemahaman mendalam tentang konsep-konsep fundamental yang menjadi pondasi dalam pengembangan program. Mulai dari struktur dasar seperti penggunaan variabel, tipe data, serta operasi matematika sederhana, hingga kontrol alur dengan penggunaan if-else, loop, dan fungsi. Penggunaan list comprehension dan fungsi rekursif menambah efisiensi dalam penulisan kode, memberikan cara yang lebih ringkas dan optimal dalam menyelesaikan berbagai permasalahan. Selain itu, pengenalan fungsi bawaan seperti map(), range(), dan lambda function memberikan fleksibilitas dalam memanipulasi data secara dinamis. Keseluruhan konsep ini membekali pemrogram dengan dasar yang kuat untuk membangun aplikasi yang lebih kompleks, serta melatih kemampuan berpikir algoritmis dan logis.
+
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1]	M. Riziq sirfatullah Alfarizi, M. Zidan Al-farish, M. Taufiqurrahman, G. Ardiansah, and M. Elgar, “PENGGUNAAN PYTHON SEBAGAI BAHASA PEMROGRAMAN UNTUK MACHINE LEARNING DAN DEEP LEARNING,” 2023.
