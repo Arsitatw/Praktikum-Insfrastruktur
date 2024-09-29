@@ -378,7 +378,8 @@ print(f"Usia Buku: {buku3.hitung_usia()} tahun\n")
 ```
 
 #### Output
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20004452.png)
+
 ### 10. Algoritma dengan Persyaratan Logika Khusus
 **Soal**: Buatlah program yang mengimplementasikan algoritma pencarian biner, namun dengan modifikasi: algoritma harus bisa mencari nilai di list yang hanya berisi angka genap, dan jika nilai yang dicari adalah angka ganjil, program harus menampilkan pesan bahwa nilai tersebut tidak bisa ditemukan.
 
