@@ -213,7 +213,7 @@ print(f"Nilai terendah dari data nilai siswa adalah: {nilai_minimum}")
 ```
 
 #### Output:
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20003759.png)
 ### 5. Kombinasi Logika dan Kreativitas
 **Soal**: Buatlah permainan sederhana menggunakan Python, di mana komputer akan memilih sebuah angka secara acak antara 1 hingga 100, dan pengguna harus menebak angka tersebut. Setiap tebakan yang salah akan memberikan petunjuk apakah angka yang ditebak lebih besar atau lebih kecil dari angka sebenarnya. Batasi jumlah percobaan menjadi 5 kali. Setelah permainan selesai, tampilkan apakah pemain menang atau kalah
 
