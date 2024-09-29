@@ -328,43 +328,13 @@ Input: "Saya suka Python"
 Output: ["ayaS", "akus", "nohtyP"]
 
 ```python
-def min_coin_change(total_amount, coins):
-    # Inisialisasi tabel dp untuk menyimpan jumlah minimum koin untuk setiap jumlah
-    dp = [float('inf')] * (total_amount + 1)
-    dp[0] = 0  # Jumlah koin untuk mencapai jumlah 0 adalah 0
+input_string = input("Masukkan sebuah kalimat: ")
 
-    # Iterasi untuk setiap jenis koin dan jumlahnya
-    for coin_value, coin_count in coins:
-        for amount in range(total_amount, -1, -1):
-            for count in range(1, coin_count + 1):
-                if amount >= count * coin_value:
-                    dp[amount] = min(dp[amount], dp[amount - count * coin_value] + count)
-                else:
-                    break
+# Memecah string menjadi kata-kata dan membalik setiap kata
+reversed_words = [word[::-1] for word in input_string.split()]
 
-    # Jika dp[total_amount] masih float('inf'), artinya tidak ada kombinasi yang mungkin
-    if dp[total_amount] == float('inf'):
-        return -1  # Tidak ada solusi
-    else:
-        return dp[total_amount]
-
-# Input dari pengguna
-total_amount = int(input("Masukkan jumlah uang: "))
-n = int(input("Masukkan jumlah jenis koin: "))
-
-coins = []
-for _ in range(n):
-    value = int(input("Masukkan nilai koin: "))
-    count = int(input(f"Masukkan jumlah koin dengan nilai {value}: "))
-    coins.append((value, count))
-
-# Memanggil fungsi dan menampilkan hasil
-result = min_coin_change(total_amount, coins)
-
-if result == -1:
-    print("Tidak mungkin mencapai jumlah dengan kombinasi koin yang tersedia.")
-else:
-    print(f"Kombinasi minimum koin yang diperlukan: {result}")
+# Mencetak hasil
+print(reversed_words)
 ```
 #### Output:
 ![image]
