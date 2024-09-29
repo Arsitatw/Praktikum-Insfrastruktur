@@ -191,7 +191,7 @@ def atm_simulasi():
 atm_simulasi()
 ```
 #### Output:
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20003331.png)
 
 ### 4. Studi Kasus Pengelolaan Data
 **Soal**: Anda diberikan file CSV berisi data nilai ujian mahasiswa. Tugas Anda adalah menulis sebuah program yang:
