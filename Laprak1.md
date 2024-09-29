@@ -243,7 +243,7 @@ else:
 ```
 
 #### Output:
-![image]
+![image](https://github.com/Arsitatw/Praktikum-Insfrastruktur/blob/master/praktikum%201/arsip-output/Screenshot%202024-09-30%20003814.png)
 ### 6. Rekursi yang Tidak Biasa
 **Soal**: Buat fungsi rekursif yang menerima input bilangan bulat `n` dan menghasilkan urutan bilangan seperti berikut ini:
 
